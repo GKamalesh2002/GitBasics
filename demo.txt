@@ -1,0 +1,6 @@
+Basic git commands:
+mkdir - used to create a new directory
+git init - to initialise a git repository
+git add . - adds all the files in the directory to the respository and stores them in untracked changes
+git commit -m "" - used to commit the changes (basically converts the untracked to tracked changes)
+git restore --staged filename - used to convert the tracked changes into untracked

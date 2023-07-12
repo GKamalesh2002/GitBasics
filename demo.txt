@@ -3,4 +3,15 @@ mkdir - used to create a new directory
 git init - to initialise a git repository
 git add . - adds all the files in the directory to the respository and stores them in untracked changes
 git commit -m "" - used to commit the changes (basically converts the untracked to tracked changes)
-git restore --staged filename - used to convert the tracked changes into untracked
+git restore --staged filename - used to convert the staged changes into unstaged
+git reset hashname - moves all the commits after the hashname to unstaged area
+git stash - used to move all the changes to the backstage without losing them
+git stash pop - used to bring all the changes from the backstage
+git stash clear - used to clear all the changes in the backstage
+git add remote origin URL - 
+git remote -v
+git push origin master - pushes the directory into the master branch
+git remote rm origin - removes the existing origin
+The main branch should only consist of the finalised code
+git branch name - used to create a new branch
+Once a new branch is created, the head will be pointing towards the new branch name
